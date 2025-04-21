@@ -9,6 +9,32 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        HML: HML {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HML";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            flavor = "tap-preferred";
+            hold-trigger-on-release;
+        };
+
+        HMR: HMR {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HMR";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            flavor = "tap-preferred";
+            hold-trigger-on-release;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -20,10 +46,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q      &kp W      &kp F          &kp P      &kp G        &kp J    &kp L      &kp U       &kp Y      &kp SEMI   &none
-&none  &kp LG(A)  &kp LC(R)  &kp LA(S)      &kp LS(T)  &kp D        &kp H    &kp RS(N)  &kp RA(E)   &kp RC(I)  &kp RG(O)  &none
-&none  &kp Z      &kp X      &kp C          &kp V      &kp B        &kp K    &kp M      &kp COMMA   &kp DOT    &kp FSLH   &none
-                             &kp BACKSPACE  &mo 1      &kp SPACE    &kp RET  &mo 2      &caps_word
+&none  &kp Q            &kp W                &kp F            &kp P              &kp G        &kp J    &kp L               &kp U             &kp Y                 &kp SEMI          &none
+&none  &HML LEFT_GUI A  &HML LEFT_CONTROL R  &HML LEFT_ALT S  &HML LEFT_SHIFT T  &kp D        &kp H    &HMR RIGHT_SHIFT N  &HMR RIGHT_ALT E  &HMR RIGHT_CONTROL I  &HMR RIGHT_GUI O  &none
+&none  &kp Z            &kp X                &kp C            &kp V              &kp B        &kp K    &kp M               &kp COMMA         &kp DOT               &kp FSLH          &none
+                                             &kp BACKSPACE    &mo 1              &kp SPACE    &kp RET  &mo 2               &caps_word
             >;
         };
 
