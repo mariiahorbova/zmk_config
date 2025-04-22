@@ -49,7 +49,7 @@
 &trans  &kp Q            &kp W                &kp F            &kp P              &kp G        &kp J      &kp L               &kp U             &kp Y                 &kp SEMI          &trans
 &trans  &HML LEFT_GUI A  &HML LEFT_CONTROL R  &HML LEFT_ALT S  &HML LEFT_SHIFT T  &kp D        &kp H      &HMR RIGHT_SHIFT N  &HMR RIGHT_ALT E  &HMR RIGHT_CONTROL I  &HMR RIGHT_GUI O  &trans
 &trans  &kp Z            &kp X                &kp C            &kp V              &kp B        &kp K      &kp M               &kp COMMA         &kp DOT               &kp FSLH          &trans
-                                              &kp BACKSPACE    &mo 1              &kp ENTER    &kp SPACE  &lt 2 ESCAPE        &caps_word
+                                              &kp TAB          &lt 1 BACKSPACE    &kp ENTER    &kp SPACE  &lt 2 ESCAPE        &caps_word
             >;
         };
 
@@ -79,7 +79,7 @@
 &trans  &kp EXCL  &kp AT     &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
 &trans  &kp TAB   &kp GRAVE  &kp TILDE  &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &trans
 &trans  &trans    &trans     &trans     &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &trans
-                             &trans     &trans    &kp ENTER    &kp SPACE  &trans     &trans
+                             &trans     &none     &kp ENTER    &kp SPACE  &trans     &trans
             >;
         };
     };
