@@ -61,8 +61,8 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &mt AMPERSAND NUMBER_7  &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &bt BT_SEL 1                      &trans          &trans          &trans          &trans        &trans           &trans
-&trans  &trans  &mt DOLLAR NUMBER_4     &mt PERCENT NUMBER_5   &mt CARET NUMBER_6             &bt BT_SEL 0                      &bt BT_CLR_ALL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans  &mt AMPERSAND NUMBER_7  &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &bt BT_SEL 1                      &bt BT_CLR_ALL  &trans          &trans          &trans        &trans           &trans
+&trans  &trans  &mt DOLLAR NUMBER_4     &mt PERCENT NUMBER_5   &mt CARET NUMBER_6             &bt BT_SEL 0                      &trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans  &mt EXCL NUMBER_1       &mt AT_SIGN NUMBER_2   &mt HASH NUMBER_3              &mt RIGHT_PARENTHESIS NUMBER_0    &trans          &trans          &trans          &trans        &trans           &trans
                                         &trans                 &trans                         &trans                            &trans          &trans          &trans
             >;
