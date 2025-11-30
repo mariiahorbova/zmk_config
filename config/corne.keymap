@@ -49,7 +49,7 @@
 &trans  &kp Q            &kp W                &kp F            &kp P              &kp G        &kp J      &kp L               &kp U             &kp Y                 &kp SEMI          &trans
 &trans  &HML LEFT_GUI A  &HML LEFT_CONTROL R  &HML LEFT_ALT S  &HML LEFT_SHIFT T  &kp D        &kp H      &HMR RIGHT_SHIFT N  &HMR RIGHT_ALT E  &HMR RIGHT_CONTROL I  &HMR RIGHT_GUI O  &trans
 &trans  &kp Z            &kp X                &kp C            &kp V              &kp B        &kp K      &kp M               &kp COMMA         &kp DOT               &kp FSLH          &trans
-                                              &kp TAB          &lt 1 BACKSPACE    &kp ENTER    &kp SPACE  &lt 2 ESCAPE        &tog 3
+                                              &lt 1 TAB        &kp BACKSPACE      &kp ENTER    &kp SPACE  &lt 2 ESCAPE        &tog 3
             >;
         };
 
